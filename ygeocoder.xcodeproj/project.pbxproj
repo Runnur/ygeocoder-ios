@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD4204D618D2C2A5D4ED743 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD42B6EF1D0A5C1FC649C07 /* UIKit.framework */; };
+		CAD421051AD6E6F43EDA0CF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAD4294A5868A8DBA30C8C44 /* InfoPlist.strings */; };
+		CAD42147EE6358E4497CF7D0 /* YGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD42BEDA564A12C4E1BCE61 /* YGUtils.m */; };
+		CAD422E676159D137766D95D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD425C39F9A35953F56FEA5 /* CoreGraphics.framework */; };
+		CAD4264637FF3A988D4886B6 /* YGAddressLocality.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD42C3E092B13FF12BDC6CF /* YGAddressLocality.m */; };
+		CAD4266C50A287136BFE060F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD42E1F1D1A36985B1AA2AA /* CoreLocation.framework */; };
+		CAD428D6086690915757CD73 /* YGResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD425018F8594642E335050 /* YGResponse.m */; };
+		CAD42C2516734677983D1AB9 /* YGParams.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD42B7B9ADEBFE686780C51 /* YGParams.m */; };
+		CAD42C57730E2755A7D40DE5 /* YGGeoObjectMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD426D34502E3A9B1DE2AEE /* YGGeoObjectMetaData.m */; };
+		CAD42C67C7399ADAA8DEB20A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD42F02A3CE8CF6F2D5E201 /* Foundation.framework */; };
+		CAD42C89DCAB7755F179BA38 /* YGAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD428FEE1C55861FE2340E0 /* YGAddress.m */; };
+		CAD42E952F720B9154C9B5B1 /* YGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD42D5E8916C2552273FBA3 /* YGAppDelegate.m */; };
+		CAD42F130D11EF0499921970 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD4201002E0D07D4F5528F4 /* main.m */; };
+		CAD42FD7BB3E2B67096352ED /* YGGeoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD4296C98B1CA02058A282C /* YGGeoObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAD4201002E0D07D4F5528F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAD42267937591FAC5D6DCF4 /* YGGeoObjectMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGGeoObjectMetaData.h; sourceTree = "<group>"; };
+		CAD4235E1CE97B0EFD0FD5A0 /* YGParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGParams.h; sourceTree = "<group>"; };
+		CAD424AB08DEFC5077DB076F /* ygeocoder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ygeocoder-Prefix.pch"; sourceTree = "<group>"; };
+		CAD424B842B6B740E07805E4 /* ygeocoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ygeocoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD425018F8594642E335050 /* YGResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGResponse.m; sourceTree = "<group>"; };
+		CAD425C39F9A35953F56FEA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAD426D34502E3A9B1DE2AEE /* YGGeoObjectMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGGeoObjectMetaData.m; sourceTree = "<group>"; };
+		CAD427DBBFE03EE855BD8DA6 /* ygeocoder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "ygeocoder-Info.plist"; sourceTree = "<group>"; };
+		CAD42831E40F85E04EFFFEBE /* YGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGAppDelegate.h; sourceTree = "<group>"; };
+		CAD428FEE1C55861FE2340E0 /* YGAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGAddress.m; sourceTree = "<group>"; };
+		CAD4296C98B1CA02058A282C /* YGGeoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGGeoObject.m; sourceTree = "<group>"; };
+		CAD42AF5A55E1938E7F23860 /* YGAddressLocality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGAddressLocality.h; sourceTree = "<group>"; };
+		CAD42B6EF1D0A5C1FC649C07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAD42B7B9ADEBFE686780C51 /* YGParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGParams.m; sourceTree = "<group>"; };
+		CAD42BC6E251F8770DD5D0F4 /* YGGeoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGGeoObject.h; sourceTree = "<group>"; };
+		CAD42BC7BF9367C6D5229563 /* YGResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGResponse.h; sourceTree = "<group>"; };
+		CAD42BEDA564A12C4E1BCE61 /* YGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGUtils.m; sourceTree = "<group>"; };
+		CAD42C3E092B13FF12BDC6CF /* YGAddressLocality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGAddressLocality.m; sourceTree = "<group>"; };
+		CAD42D1631929BC785BB9C99 /* YGTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGTypes.h; sourceTree = "<group>"; };
+		CAD42D5E8916C2552273FBA3 /* YGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGAppDelegate.m; sourceTree = "<group>"; };
+		CAD42D864A680FB22D935DCF /* YGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGUtils.h; sourceTree = "<group>"; };
+		CAD42DB99555559E28F22CA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAD42E1F1D1A36985B1AA2AA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CAD42F02A3CE8CF6F2D5E201 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAD42F2D9A058391FB6F5CA6 /* YGAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGAddress.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD42AA0789F3BF677C8B75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD4204D618D2C2A5D4ED743 /* UIKit.framework in Frameworks */,
+				CAD42C67C7399ADAA8DEB20A /* Foundation.framework in Frameworks */,
+				CAD422E676159D137766D95D /* CoreGraphics.framework in Frameworks */,
+				CAD4266C50A287136BFE060F /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD425B86085B4C55BF188E9 /* YGeocoder */ = {
+			isa = PBXGroup;
+			children = (
+				CAD42D1631929BC785BB9C99 /* YGTypes.h */,
+				CAD42D864A680FB22D935DCF /* YGUtils.h */,
+				CAD42BEDA564A12C4E1BCE61 /* YGUtils.m */,
+				CAD4235E1CE97B0EFD0FD5A0 /* YGParams.h */,
+				CAD42B7B9ADEBFE686780C51 /* YGParams.m */,
+				CAD42F2D9A058391FB6F5CA6 /* YGAddress.h */,
+				CAD428FEE1C55861FE2340E0 /* YGAddress.m */,
+				CAD42BC7BF9367C6D5229563 /* YGResponse.h */,
+				CAD425018F8594642E335050 /* YGResponse.m */,
+				CAD42BC6E251F8770DD5D0F4 /* YGGeoObject.h */,
+				CAD4296C98B1CA02058A282C /* YGGeoObject.m */,
+				CAD42AF5A55E1938E7F23860 /* YGAddressLocality.h */,
+				CAD42C3E092B13FF12BDC6CF /* YGAddressLocality.m */,
+				CAD42267937591FAC5D6DCF4 /* YGGeoObjectMetaData.h */,
+				CAD426D34502E3A9B1DE2AEE /* YGGeoObjectMetaData.m */,
+			);
+			path = YGeocoder;
+			sourceTree = "<group>";
+		};
+		CAD426409E1E724AAA4F86A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAD427DBBFE03EE855BD8DA6 /* ygeocoder-Info.plist */,
+				CAD4294A5868A8DBA30C8C44 /* InfoPlist.strings */,
+				CAD4201002E0D07D4F5528F4 /* main.m */,
+				CAD424AB08DEFC5077DB076F /* ygeocoder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAD427E0AEBF94DADB690721 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAD42B6EF1D0A5C1FC649C07 /* UIKit.framework */,
+				CAD42F02A3CE8CF6F2D5E201 /* Foundation.framework */,
+				CAD425C39F9A35953F56FEA5 /* CoreGraphics.framework */,
+				CAD42E1F1D1A36985B1AA2AA /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAD4294AC6A6EDD3C244D88B = {
+			isa = PBXGroup;
+			children = (
+				CAD42B8BD057A9A90E924AD6 /* Products */,
+				CAD427E0AEBF94DADB690721 /* Frameworks */,
+				CAD42E762A3323650860660B /* ygeocoder */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD42B8BD057A9A90E924AD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD424B842B6B740E07805E4 /* ygeocoder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD42E762A3323650860660B /* ygeocoder */ = {
+			isa = PBXGroup;
+			children = (
+				CAD426409E1E724AAA4F86A5 /* Supporting Files */,
+				CAD42831E40F85E04EFFFEBE /* YGAppDelegate.h */,
+				CAD42D5E8916C2552273FBA3 /* YGAppDelegate.m */,
+				CAD425B86085B4C55BF188E9 /* YGeocoder */,
+			);
+			path = ygeocoder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD4283AFB18EBCC75CB45C7 /* ygeocoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD429E539B67018A822E16F /* Build configuration list for PBXNativeTarget "ygeocoder" */;
+			buildPhases = (
+				CAD4290F828EF343D1F19CC2 /* Sources */,
+				CAD42AA0789F3BF677C8B75C /* Frameworks */,
+				CAD427B0CCFF206CF36F7867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ygeocoder;
+			productName = ygeocoder;
+			productReference = CAD424B842B6B740E07805E4 /* ygeocoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD4223B30B81F4F8845DA53 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CAD42D1167988C341CF03ABB /* Build configuration list for PBXProject "ygeocoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAD4294AC6A6EDD3C244D88B;
+			productRefGroup = CAD42B8BD057A9A90E924AD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD4283AFB18EBCC75CB45C7 /* ygeocoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD427B0CCFF206CF36F7867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD421051AD6E6F43EDA0CF0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD4290F828EF343D1F19CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD42F130D11EF0499921970 /* main.m in Sources */,
+				CAD42E952F720B9154C9B5B1 /* YGAppDelegate.m in Sources */,
+				CAD42147EE6358E4497CF7D0 /* YGUtils.m in Sources */,
+				CAD42C2516734677983D1AB9 /* YGParams.m in Sources */,
+				CAD42C89DCAB7755F179BA38 /* YGAddress.m in Sources */,
+				CAD428D6086690915757CD73 /* YGResponse.m in Sources */,
+				CAD42FD7BB3E2B67096352ED /* YGGeoObject.m in Sources */,
+				CAD4264637FF3A988D4886B6 /* YGAddressLocality.m in Sources */,
+				CAD42C57730E2755A7D40DE5 /* YGGeoObjectMetaData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAD4294A5868A8DBA30C8C44 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD42DB99555559E28F22CA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD42017FD188D86DD6D4EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAD42A5A7421E837D224CBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ygeocoder/ygeocoder-Prefix.pch";
+				INFOPLIST_FILE = "ygeocoder/ygeocoder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAD42D8CD8339E22BFA0E032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ygeocoder/ygeocoder-Prefix.pch";
+				INFOPLIST_FILE = "ygeocoder/ygeocoder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CAD42D950D0B260233BD5FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD429E539B67018A822E16F /* Build configuration list for PBXNativeTarget "ygeocoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD42D8CD8339E22BFA0E032 /* Release */,
+				CAD42A5A7421E837D224CBA2 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAD42D1167988C341CF03ABB /* Build configuration list for PBXProject "ygeocoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD42D950D0B260233BD5FA1 /* Release */,
+				CAD42017FD188D86DD6D4EE3 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD4223B30B81F4F8845DA53 /* Project object */;
+}
